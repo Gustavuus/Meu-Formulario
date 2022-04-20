@@ -2,13 +2,20 @@ body {
     margin: 0px;
 }
 .cabecalho {
-    background: chartreuse;
     padding: 15px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+19,83c783+41,52b152+50,008a00+67,005700+83,002400+100 */
+background: #b4ddb4; /* Old browsers */
+background: -moz-linear-gradient(left, #b4ddb4 19%, #83c783 41%, #52b152 50%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #b4ddb4 19%,#83c783 41%,#52b152 50%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #b4ddb4 19%,#83c783 41%,#52b152 50%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9*/
+
+
 }
 .menu{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin: 10px 0px;
 }
 .menu a {
     text-decoration: none;
@@ -16,7 +23,4 @@ body {
     color: blue;
     margin-right: 15px;
     border: 1px solid black;
-}
-a {
-    
 }

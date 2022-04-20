@@ -1,0 +1,12 @@
+.list{
+    width: 100%;
+}
+.list td {
+    vertical-align: top;
+}
+
+.list tr:nth-child(1){
+  vertical-align: top;
+  background-color: black;
+  color: white
+}
