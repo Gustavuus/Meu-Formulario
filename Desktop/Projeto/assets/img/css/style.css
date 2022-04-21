@@ -1,5 +1,8 @@
 body {
     margin: 0px;
+    height: 200%;
+    width: 100%;
+    
 }
 .cabecalho {
     padding: 15px;
@@ -23,4 +26,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     color: blue;
     margin-right: 15px;
     border: 1px solid black;
+}
+.desenvolvedor{
+    align-items: center;
+    margin-top: 25%;
+width: max-content;
 }
